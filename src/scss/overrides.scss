@@ -1,0 +1,23 @@
+$black: #f4f4f4;
+
+.navbar-brand {
+	padding: 0 0 0 2rem;
+}
+
+/* Sticky footer styles */
+// html {
+// 	min-height: 100%;
+// 	position: relative;
+// }
+//
+// body {
+// 	margin-bottom: 30px;
+// }
+
+.footer {
+	background-color: $black;
+	bottom: 0;
+	height: 20px;
+	position: absolute;
+	width: 100%;
+}

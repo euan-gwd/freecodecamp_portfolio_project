@@ -1,12 +1,13 @@
 {
-  "name": "new-shopping-site",
+  "name": "new-portfolio-site",
   "version": "1.0.0",
-  "description": "new shopping site with gulp, browser-sync, babel, mocha and Sass",
+  "description": "new portfolio site with gulp, browser-sync, babel, mocha and Sass",
   "main": "src/index.html",
   "author": "Euan Greenwood",
   "license": "MIT",
   "scripts": {
-    "test": "mocha -w"
+    "test": "mocha -w",
+		"start": "gulp"
   },
   "dependencies": {},
   "devDependencies": {

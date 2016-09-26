@@ -1,6 +1,5 @@
-# new-projects-website-template
+# new-portfolio-project
 Blank basic website template for new website projects
 
 Run 'npm install' to install dev dependences
-and
-'gulp' to start dev server
+and 'gulp' to start dev server
