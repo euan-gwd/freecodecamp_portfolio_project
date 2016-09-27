@@ -32,7 +32,7 @@ section.module p:last-child {
 }
 
 section.module.parallax {
-	height: 50em;
+	height: 100vh;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -46,7 +46,7 @@ section.module.parallax h1 {
 	text-align: center;
 	text-transform: uppercase;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	padding-top: 2rem;
+	padding: 4rem 0 2rem 0;
 }
 
 section.module.parallax p {
