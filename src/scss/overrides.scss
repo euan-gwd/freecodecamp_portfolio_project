@@ -1,23 +1,30 @@
-$black: #f4f4f4;
+$black: #000;
+$grey: #8f8f8f;
 
 .navbar-brand {
 	padding: 0 0 0 2rem;
 }
 
 /* Sticky footer styles */
-// html {
-// 	min-height: 100%;
-// 	position: relative;
-// }
-//
-// body {
-// 	margin-bottom: 30px;
-// }
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+main {
+	margin-top: 50px;
+}
 
 .footer {
 	background-color: $black;
+	color: $grey;
 	bottom: 0;
-	height: 20px;
 	position: absolute;
 	width: 100%;
+
+	p {
+		padding-top: 5px;
+	}
 }
+
+@import 'parallax';

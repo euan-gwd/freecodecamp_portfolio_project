@@ -1,1 +1,127 @@
-.navbar-brand{padding:0 0 0 2rem}.footer{background-color:#f4f4f4;bottom:0;height:20px;position:absolute;width:100%}
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+.navbar-brand {
+  padding: 0 0 0 2rem;
+}
+
+/* Sticky footer styles */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: #000;
+  color: #8f8f8f;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.footer p {
+  padding-top: 5px;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 40px 0;
+}
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 {
+  background-image: url("../img/header.jpg");
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+section.module.parallax-2 {
+  background-image: url("../img/portfolio-bk.jpg");
+}
+
+section.module.parallax-3 {
+  background-image: url("../img/lock-and-stock-photos.jpg");
+}
+
+section.module.parallax-4 {
+  background-image: url("../img/London.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
