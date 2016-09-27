@@ -5,35 +5,4 @@ $grey: #8f8f8f;
 	padding: 0 0 0 2em;
 }
 
-*,
-body {
-	box-sizing: border-box;
-}
-
-html {
-	min-height: 100vh;
-	position: relative;
-	font-size: 16px;
-}
-
-.logo {
-	margin: 6.5em auto 2.5em;
-	height: auto;
-	@media all and (max-width: 600px) {
-		max-height: 6.250em;
-		min-height: 0;
-		margin: 5em auto;
-	}
-}
-
-.profile {
-	max-width: 10em;
-}
-
-.flex-row {
-	display: flex;
-	flex-flow: wrap;
-	justify-content: space-around;
-}
-
 @import 'parallax';
