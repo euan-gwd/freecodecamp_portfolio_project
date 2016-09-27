@@ -10,7 +10,7 @@ html {
 }
 
 .logo {
-  margin: 8em auto 4.5em auto;
+  margin: 4.5em auto 4.5em auto;
   height: auto;
 }
 
@@ -22,10 +22,14 @@ html {
   }
 }
 
+.profile {
+  max-width: 10em;
+}
+
 div.module.content {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 18.750em;
+  height: 50vh;
   padding: 1em 0;
 }
 
@@ -102,15 +106,11 @@ section.module.parallax-1 {
 }
 
 section.module.parallax-2 {
-  background-image: url("../img/portfolio-bk.jpg");
+  background-image: url("../img/London-skyline.jpg");
 }
 
 section.module.parallax-3 {
-  background-image: url("../img/lock-and-stock-photos.jpg");
-}
-
-section.module.parallax-4 {
-  background-image: url("../img/London.jpg");
+  background-image: url("../img/portfolio-bk.jpg");
 }
 
 @media all and (min-width: 600px) {

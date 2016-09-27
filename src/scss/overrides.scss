@@ -12,7 +12,7 @@ html {
 }
 
 .logo {
-	margin: 8em auto 4.5em auto;
+	margin: 4.5em auto 4.5em auto;
 	height: auto;
 
 	@media all and (max-width: 600px) {
@@ -22,10 +22,14 @@ html {
 	}
 }
 
+.profile {
+	max-width: 10em;
+}
+
 div.module.content {
 	background-color: rgba(255, 255, 255, 0.8);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	height: 18.750em;
+	height: 50vh;
 	padding: 1em 0;
 }
 
