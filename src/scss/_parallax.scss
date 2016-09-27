@@ -4,7 +4,7 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
 
 .container {
-	max-width: 960px;
+	max-width: 100vw;
 	margin: 0 auto;
 }
 
@@ -16,27 +16,23 @@ section.module:last-child {
 }
 
 section.module h2 {
-	margin-bottom: 40px;
 	font-family: "Roboto Slab", serif;
-	font-size: 30px;
+	font-size: 1.875em;
+	margin-bottom: 2.500em;
 }
 
 section.module p {
-	margin-bottom: 40px;
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: 300;
+	margin-bottom: 2.500em;
 }
 
 section.module p:last-child {
 	margin-bottom: 0;
 }
 
-section.module.content {
-	padding: 40px 0;
-}
-
 section.module.parallax {
-	height: 600px;
+	height: 50em;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -45,29 +41,24 @@ section.module.parallax {
 
 section.module.parallax h1 {
 	color: rgba(255, 255, 255, 0.8);
-	font-size: 48px;
-	// line-height: 600px;
+	font-size: 3em;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding-top: 2rem;
 }
 
 section.module.parallax p {
-	color: rgba(255, 255, 255, 0.8);
-	font-size: 1rem;
+	color: rgba(125, 125, 125, 0.8);
+	font-size: 1em;
 	font-weight: 700;
-	// line-height: 5rem;
 	text-align: center;
-	text-transform: uppercase;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	// text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 section.module.parallax-1 {
 	background-image: url("../img/header.jpg");
-	align-items: center;
-	display: inline-flex;
-	justify-content: center;
 }
 
 section.module.parallax-2 {
@@ -84,19 +75,20 @@ section.module.parallax-4 {
 
 @media all and (min-width: 600px) {
 	section.module h2 {
-		font-size: 42px;
+		font-size: 2.625em;
 	}
 
 	section.module p {
-		font-size: 20px;
+		font-size: 1em;
 	}
 
 	section.module.parallax h1 {
-		font-size: 96px;
+		font-size: 2.25em;
 	}
 }
+
 @media all and (min-width: 960px) {
 	section.module.parallax h1 {
-		font-size: 160px;
+		font-size: 6.25em;
 	}
 }

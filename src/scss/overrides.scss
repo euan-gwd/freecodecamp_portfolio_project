@@ -2,28 +2,46 @@ $black: #000;
 $grey: #8f8f8f;
 
 .navbar-brand {
-	padding: 0 0 0 2rem;
+	padding: 0 0 0 2em;
 }
 
-/* Sticky footer styles */
 html {
-	min-height: 100%;
+	min-height: 100vh;
 	position: relative;
+	font-size: 16px;
 }
 
 main {
-	margin-top: 50px;
+	margin-top: 3.5em;
+}
+
+.logo {
+	margin: 4.500em auto;
+	height: auto;
+
+	@media all and (max-width: 600px) {
+		max-height: 6.250em;
+		min-height: 0;
+		margin: 1em auto;
+	}
+}
+
+div.module.content {
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	height: 18.750em;
+	padding: 3.125em 0;
 }
 
 .footer {
 	background-color: $black;
-	color: $grey;
 	bottom: 0;
+	color: $grey;
 	position: absolute;
 	width: 100%;
 
 	p {
-		padding-top: 5px;
+		padding-top: 0.313em;
 	}
 }
 
