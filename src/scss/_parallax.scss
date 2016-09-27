@@ -39,6 +39,13 @@ section.module.parallax {
 	background-size: cover;
 }
 
+div.module.content {
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	height: auto;
+	padding: 0.5em 0;
+}
+
 section.module.parallax h1 {
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 3em;
@@ -46,7 +53,7 @@ section.module.parallax h1 {
 	text-align: center;
 	text-transform: uppercase;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	padding: 4rem 0 2rem 0;
+	padding: 3rem 0 2rem;
 }
 
 section.module.parallax p {

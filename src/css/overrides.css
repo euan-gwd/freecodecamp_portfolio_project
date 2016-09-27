@@ -3,6 +3,11 @@
   padding: 0 0 0 2em;
 }
 
+*,
+body {
+  box-sizing: border-box;
+}
+
 html {
   min-height: 100vh;
   position: relative;
@@ -10,7 +15,7 @@ html {
 }
 
 .logo {
-  margin: 4.5em auto 4.5em auto;
+  margin: 6.5em auto 2.5em;
   height: auto;
 }
 
@@ -26,23 +31,13 @@ html {
   max-width: 10em;
 }
 
-div.module.content {
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 50vh;
-  padding: 1em 0;
-}
-
-.footer {
-  background-color: #000;
-  bottom: 0;
-  color: #8f8f8f;
-  position: absolute;
-  width: 100%;
-}
-
-.footer p {
-  padding-top: 0.313em;
+.flex-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 /* ============================================================
@@ -84,6 +79,13 @@ section.module.parallax {
   background-size: cover;
 }
 
+div.module.content {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: auto;
+  padding: 0.5em 0;
+}
+
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 3em;
@@ -91,7 +93,7 @@ section.module.parallax h1 {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  padding: 4rem 0 2rem 0;
+  padding: 3rem 0 2rem;
 }
 
 section.module.parallax p {

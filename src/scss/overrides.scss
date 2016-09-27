@@ -5,6 +5,11 @@ $grey: #8f8f8f;
 	padding: 0 0 0 2em;
 }
 
+*,
+body {
+	box-sizing: border-box;
+}
+
 html {
 	min-height: 100vh;
 	position: relative;
@@ -12,9 +17,8 @@ html {
 }
 
 .logo {
-	margin: 4.5em auto 4.5em auto;
+	margin: 6.5em auto 2.5em;
 	height: auto;
-
 	@media all and (max-width: 600px) {
 		max-height: 6.250em;
 		min-height: 0;
@@ -26,23 +30,10 @@ html {
 	max-width: 10em;
 }
 
-div.module.content {
-	background-color: rgba(255, 255, 255, 0.8);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	height: 50vh;
-	padding: 1em 0;
-}
-
-.footer {
-	background-color: $black;
-	bottom: 0;
-	color: $grey;
-	position: absolute;
-	width: 100%;
-
-	p {
-		padding-top: 0.313em;
-	}
+.flex-row {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
 }
 
 @import 'parallax';
