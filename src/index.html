@@ -5,14 +5,14 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta name="description" content="Portfolio Site of Euan Greenwood for freecodecamp">
 	<meta name="author" content="EuanG">
 
 	<title>Euan Greenwood</title>
 
 	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
 
 	<!-- Font Awesome CSS -->
 	<link href="css/font-awesome.min.css" rel="stylesheet">
@@ -23,39 +23,38 @@
 </head>
 
 <body>
-
-	<!-- Navigation -->
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+	<header>
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-				<a class="navbar-brand" href="#"><img src="img/EG_Logo_52x50.png" alt="brand image" class="img-responsive" /></a>
+					<a class="navbar-brand" href="#"><img src="img/EG_Logo_52x50.png" alt="brand image" class="img-responsive" /></a>
+				</div>
+				<div class="collapse navbar-collapse" id="menu-navbar-collapse-1">
+					<ul class="nav navbar-nav pull-right">
+						<li>
+							<a href="#About">About Me</a>
+						</li>
+						<li>
+							<a href="#Portfolio">What I have done</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
 			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="navbar-collapse-1">
-				<ul class="nav navbar-nav pull-right">
-					<li>
-						<a href="#About">About Me</a>
-					</li>
-					<li>
-						<a href="#Portfolio">What I have done</a>
-					</li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container -->
-	</nav>
-	<!-- /Navigation -->
+			<!-- /.container -->
+		</nav>
+		<!-- /Navigation -->
+	</header>
 
-	<!-- Main Content -->
 	<main>
+		<!-- Main Content -->
 		<section class="module parallax parallax-1">
 			<div class="container-fluid">
 				<img src="img/logo.png" alt="logo" class="img-responsive center-block logo" />
@@ -68,7 +67,7 @@
 					<p class="text-center"> In a world of unicorns, ninjas, wizards, let me aid you in building your web presence instead of you wrestling with mythical beasts.</p>
 				</div>
 				<div class="col-sm-6 col-sm-offset-6">
-					<i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-angle-double-down fa-2x" aria-hidden="true"></i>
 				</div>
 			</div>
 		</section>
@@ -79,6 +78,7 @@
 			</div>
 			<div class="module content-2">
 				<div class="container-fluid">
+					<h2 class="col-sm-offset-1">About Me</h2>
 					<div class="row">
 						<div class="col-sm-6 col-sm-offset-1">
 							<p>I am a self taught person, my passion for technology started at an early age, my first professional outing was as a windows systems and network administrator for a small manufacturing firm. I then studied digital animation for both web and screen.
@@ -129,6 +129,14 @@
 						<div class="flex-col">
 							<img src="http://placehold.it/300x150" alt="site1" class="img-responsive" />
 							<caption>Site 4</caption>
+						</div>
+						<div class="flex-col">
+							<img src="http://placehold.it/300x150" alt="site1" class="img-responsive" />
+							<caption>Site 5</caption>
+						</div>
+						<div class="flex-col">
+							<img src="http://placehold.it/300x150" alt="site1" class="img-responsive" />
+							<caption>Site 6</caption>
 						</div>
 					</div>
 					<p>Just a few examples of the work I have done...</p>
