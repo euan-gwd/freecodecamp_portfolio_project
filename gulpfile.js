@@ -67,10 +67,14 @@ gulp.task('scripts', () => {
   return gulp.src('src/babel_js/**/*.js').pipe(plumber()).pipe(babel({presets: ['es2015']})).pipe(gulp.dest('build/js'));
 });
 
+gulp.task('images', () => {
+  return gulp.src('src/img/**/*.*').pipe(plumber()).pipe(gulp.dest('build/img')); // copies index.html to build folder
+});
+
 gulp.task('favicon', () => {
   return gulp.src('src/favicon.ico').pipe(plumber()).pipe(gulp.dest('build')); // copies index.html to build folder
 });
 
 gulp.task('build', (callback) => {
-  runSequence(['html', 'styles', 'scripts', 'favicon'], callback);
+  runSequence(['html', 'styles', 'scripts','images', 'favicon'], callback);
 });
