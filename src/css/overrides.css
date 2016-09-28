@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
 body {
   padding-top: 50px;
+  width: 100vw;
 }
 
 .navbar-brand {
@@ -26,6 +27,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
   background-image: url("../img/header.jpg");
   height: 95vh;
 }
@@ -59,6 +61,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
   background-image: url("../img/London-skyline.jpg");
 }
 
@@ -66,7 +69,7 @@ body {
   color: rgba(255, 255, 255, 0.8);
   font-size: 3em;
   font-weight: 700;
-  padding: 4rem 0 1em;
+  padding: 1em 0;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
@@ -75,21 +78,14 @@ body {
 @media all and (min-width: 960px) {
   .module.parallax-2 h1 {
     font-size: 6.25em;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .module.parallax-2 h1 {
-    margin: 1em auto;
-    max-height: 6.250em;
-    min-height: 0;
+    padding: 1em 0 2em;
   }
 }
 
 .module.parallax-2 .module.content-2 {
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 55vh;
+  height: 40vh;
   padding: 1em 0;
 }
 
@@ -109,11 +105,18 @@ body {
   max-width: 10em;
 }
 
+@media all and (min-width: 960px) {
+  .module.parallax-2 .module.content-2 {
+    padding: 1em 0;
+  }
+}
+
 .module.parallax-3 {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
   background-image: url("../img/portfolio-bk.jpg");
 }
 
@@ -130,14 +133,6 @@ body {
 @media all and (min-width: 960px) {
   .module.parallax-3 h1 {
     font-size: 6.25em;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .module.parallax-3 h1 {
-    margin: 1em auto;
-    max-height: 6.250em;
-    min-height: 0;
   }
 }
 
