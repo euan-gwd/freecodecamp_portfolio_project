@@ -1,4 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+body {
+  padding-top: 50px;
+}
+
 .navbar-brand {
   padding: 0 0 0 2em;
 }
@@ -22,8 +26,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
   background-image: url("../img/header.jpg");
+  height: 95vh;
 }
 
 .module.parallax-1 p {
@@ -34,15 +38,20 @@
 }
 
 .module.parallax-1 .logo {
-  height: auto;
-  margin: 4.5em auto 2.5em;
+  height: 7.5em;
+  margin: 2.5em auto;
 }
 
 .module.parallax-1 .module.content-1 {
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 25vh;
+  height: 30vh;
+  margin-top: 20vh;
   padding: 1em 0;
+}
+
+.module.parallax-1 .module.content-1 .fa-angle-double-down {
+  margin-top: 0.5em;
 }
 
 .module.parallax-2 {
@@ -50,7 +59,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
   background-image: url("../img/London-skyline.jpg");
 }
 
@@ -70,10 +78,18 @@
   }
 }
 
+@media all and (max-width: 600px) {
+  .module.parallax-2 h1 {
+    margin: 1em auto;
+    max-height: 6.250em;
+    min-height: 0;
+  }
+}
+
 .module.parallax-2 .module.content-2 {
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 60vh;
+  height: 55vh;
   padding: 1em 0;
 }
 
@@ -98,7 +114,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
   background-image: url("../img/portfolio-bk.jpg");
 }
 
@@ -115,6 +130,14 @@
 @media all and (min-width: 960px) {
   .module.parallax-3 h1 {
     font-size: 6.25em;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .module.parallax-3 h1 {
+    margin: 1em auto;
+    max-height: 6.250em;
+    min-height: 0;
   }
 }
 

@@ -10,7 +10,7 @@ $h1-color: rgba(255, 255, 255, 0.8);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 100vh;
+	// height: 100vh;
 }
 
 .container {
@@ -30,6 +30,7 @@ $h1-color: rgba(255, 255, 255, 0.8);
 .module.parallax-1 {
 	@include background-props;
 	background-image: url('../img/header.jpg');
+	height: 95vh;
 
 	p {
 		color: $p-color;
@@ -39,22 +40,22 @@ $h1-color: rgba(255, 255, 255, 0.8);
 	}
 
 	.logo {
-		height: auto;
-		margin: 4.5em auto 2.5em;
+		height: 7.5em;
+		margin: 2.5em auto;
 	}
 
 	.module.content-1 {
 		background-color: $backing-color;
 		box-shadow: 0 0 10px $shadow-color;
-		height: 25vh;
+		height: 30vh;
+		margin-top: 20vh;
 		padding: 1em 0;
+
+		.fa-angle-double-down {
+			margin-top: 0.5em;
+		}
 	}
 
-	// @media all and (max-width: 600px) {
-	// 	margin: 1em auto;
-	// 	max-height: 6.250em;
-	// 	min-height: 0;
-	// }
 }
 
 .module.parallax-2 {
@@ -73,12 +74,18 @@ $h1-color: rgba(255, 255, 255, 0.8);
 		@media all and (min-width: 960px) {
 				font-size: 6.25em;
 		}
+
+		@media all and (max-width: 600px) {
+			margin: 1em auto;
+			max-height: 6.250em;
+			min-height: 0;
+		}
 	}
 
 	.module.content-2 {
 		background-color: $backing-color;
 		box-shadow: 0 0 10px $shadow-color;
-		height: 60vh;
+		height: 55vh;
 		padding: 1em 0;
 
 		h2 {
@@ -114,6 +121,12 @@ $h1-color: rgba(255, 255, 255, 0.8);
 
 		@media all and (min-width: 960px) {
 				font-size: 6.25em;
+		}
+
+		@media all and (max-width: 600px) {
+			margin: 1em auto;
+			max-height: 6.250em;
+			min-height: 0;
 		}
 	}
 
