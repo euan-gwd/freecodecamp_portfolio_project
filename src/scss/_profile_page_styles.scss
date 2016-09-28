@@ -1,0 +1,40 @@
+// portfolio page styles
+.module.parallax-3 {
+	@include background-props;
+	background-image: url('../img/portfolio-bk.jpg');
+	height: 100vh;
+
+	h1 {
+		color: $h1-color;
+		font-size: 3em;
+		font-weight: 700;
+		padding: 4rem 0 1em;
+		text-align: center;
+		text-shadow: 0 0 10px $shadow-color;
+		text-transform: uppercase;
+
+		@media all and (min-width: 1120px) and (orientation: landscape) {
+			font-size: 6.25em;
+		}
+	}
+
+	.module.content-3 {
+		background-color: $backing-color;
+		box-shadow: 0 0 10px $shadow-color;
+		height: auto;
+		padding: 1em 0;
+
+		.flex-row {
+			display: flex;
+			flex-flow: wrap;
+			justify-content: space-around;
+		}
+
+		p {
+			color: $p-color;
+			font-size: 1em;
+			font-weight: 700;
+			text-align: center;
+		}
+	}
+}

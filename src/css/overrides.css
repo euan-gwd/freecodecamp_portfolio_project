@@ -112,7 +112,7 @@ body {
   max-width: 10em;
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 1120px) and (orientation: landscape) {
   .module.parallax-2 .module.content-2 {
     height: 35vh;
     margin-top: 5vh;
@@ -139,7 +139,7 @@ body {
   text-transform: uppercase;
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 1120px) and (orientation: landscape) {
   .module.parallax-3 h1 {
     font-size: 6.25em;
   }

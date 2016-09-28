@@ -1,0 +1,51 @@
+// about page styles
+.module.parallax-2 {
+	@include background-props;
+	background-image: url('../img/London-skyline.jpg');
+	height: 100vh;
+
+	h1 {
+		color: $h1-color;
+		font-size: 3em;
+		font-weight: 700;
+		padding: 1em 0;
+		text-align: center;
+		text-shadow: 0 0 10px $shadow-color;
+		text-transform: uppercase;
+
+		@media all and (min-width: 1120px) and (orientation: landscape) {
+			font-size: 6.25em;
+			padding: 1em 0 2em;
+		}
+	}
+
+	.module.content-2 {
+		background-color: $backing-color;
+		box-shadow: 0 0 10px $shadow-color;
+		height: 35vh;
+		margin-top: 48vh;
+		padding: 1em 0;
+
+		h2 {
+			font-family: "Roboto Slab", serif;
+			font-size: 1.875em;
+		}
+
+		p {
+			color: $p-color;
+			font-size: 1em;
+			font-weight: 700;
+			text-align: center;
+		}
+
+		.profile {
+			max-width: 10em;
+		}
+
+		@media all and (min-width: 1120px) and (orientation: landscape) {
+			height: 35vh;
+			margin-top: 5vh;
+			padding: 1em 0;
+		}
+	}
+}
