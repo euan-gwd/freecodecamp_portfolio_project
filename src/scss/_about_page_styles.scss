@@ -1,7 +1,10 @@
 // about page styles
 .module.parallax-2 {
-	@include background-props;
+	background-attachment: fixed;
 	background-image: url('../img/London-skyline.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100vh;
 
 	h1 {

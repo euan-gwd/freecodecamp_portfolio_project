@@ -5,16 +5,8 @@ $backing-color: rgba(255, 255, 255, 0.9);
 $shadow-color: rgba(0, 0, 0, 0.2);
 $h1-color: rgba(255, 255, 255, 0.8);
 
-@mixin background-props {
-	background-attachment: fixed;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 body {
 	padding-top: 50px;
-	width: 100vw;
 }
 
 .navbar-brand {

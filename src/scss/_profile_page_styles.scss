@@ -1,12 +1,15 @@
 // portfolio page styles
 .module.parallax-3 {
-	@include background-props;
+	background-attachment: fixed;
 	background-image: url('../img/portfolio-bk.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100vh;
 
 	h1 {
 		color: $h1-color;
-		font-size: 3em;
+		font-size: 6.25em;
 		font-weight: 700;
 		padding: 4rem 0 1em;
 		text-align: center;
