@@ -168,6 +168,10 @@ body {
   text-align: center;
 }
 
+.module.parallax-3 .module.content-3 .gallery {
+  max-width: 20em;
+}
+
 @media all and (min-width: 1170px) and (orientation: landscape) {
   .module.parallax-3 .module.content-3 {
     height: auto;
