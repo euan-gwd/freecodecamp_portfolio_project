@@ -9,16 +9,16 @@
 
 	h1 {
 		color: $h1-color;
-		font-size: 3em;
+		font-size: 4em;
 		font-weight: 700;
 		padding: 1em 0;
 		text-align: center;
 		text-shadow: 0 0 10px $shadow-color;
 		text-transform: uppercase;
 
-		@media all and (min-width: 1120px) and (orientation: landscape) {
+		@media all and (min-width: 1170px) and (orientation: landscape) {
 			font-size: 6.25em;
-			padding: 1em 0 2em;
+			padding: 1em 0 1.5em;
 		}
 	}
 
@@ -26,7 +26,7 @@
 		background-color: $backing-color;
 		box-shadow: 0 0 10px $shadow-color;
 		height: 35vh;
-		margin-top: 48vh;
+		margin-top: 35vh;
 		padding: 1em 0;
 
 		h2 {
@@ -45,7 +45,7 @@
 			max-width: 10em;
 		}
 
-		@media all and (min-width: 1120px) and (orientation: landscape) {
+		@media all and (min-width: 1170px) and (orientation: landscape) {
 			height: 35vh;
 			margin-top: 5vh;
 			padding: 1em 0;

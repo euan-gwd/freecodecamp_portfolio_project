@@ -1,4 +1,5 @@
 // portfolio page styles
+
 .module.parallax-3 {
 	background-attachment: fixed;
 	background-image: url('../img/portfolio-bk.jpg');
@@ -16,7 +17,7 @@
 		text-shadow: 0 0 10px $shadow-color;
 		text-transform: uppercase;
 
-		@media all and (min-width: 1120px) and (orientation: landscape) {
+		@media all and (min-width: 1170px) and (orientation: landscape) {
 			font-size: 6.25em;
 		}
 	}
@@ -38,6 +39,12 @@
 			font-size: 1em;
 			font-weight: 700;
 			text-align: center;
+		}
+
+		@media all and (min-width: 1170px) and (orientation: landscape) {
+			height: 35vh;
+			margin-top: 5vh;
+			padding: 1em 0;
 		}
 	}
 }

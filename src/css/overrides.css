@@ -54,10 +54,10 @@ body {
   margin-top: 0.5em;
 }
 
-@media all and (min-width: 1120px) and (orientation: landscape) {
+@media all and (min-width: 1170px) and (orientation: landscape) {
   .module.parallax-1 .module.content-1 {
-    height: 20vh;
-    margin-top: 45vh;
+    height: 18vh;
+    margin-top: 48vh;
   }
 }
 
@@ -72,7 +72,7 @@ body {
 
 .module.parallax-2 h1 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 700;
   padding: 1em 0;
   text-align: center;
@@ -80,10 +80,10 @@ body {
   text-transform: uppercase;
 }
 
-@media all and (min-width: 1120px) and (orientation: landscape) {
+@media all and (min-width: 1170px) and (orientation: landscape) {
   .module.parallax-2 h1 {
     font-size: 6.25em;
-    padding: 1em 0 2em;
+    padding: 1em 0 1.5em;
   }
 }
 
@@ -91,7 +91,7 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   height: 35vh;
-  margin-top: 48vh;
+  margin-top: 35vh;
   padding: 1em 0;
 }
 
@@ -111,7 +111,7 @@ body {
   max-width: 10em;
 }
 
-@media all and (min-width: 1120px) and (orientation: landscape) {
+@media all and (min-width: 1170px) and (orientation: landscape) {
   .module.parallax-2 .module.content-2 {
     height: 35vh;
     margin-top: 5vh;
@@ -138,7 +138,7 @@ body {
   text-transform: uppercase;
 }
 
-@media all and (min-width: 1120px) and (orientation: landscape) {
+@media all and (min-width: 1170px) and (orientation: landscape) {
   .module.parallax-3 h1 {
     font-size: 6.25em;
   }
@@ -165,4 +165,12 @@ body {
   font-size: 1em;
   font-weight: 700;
   text-align: center;
+}
+
+@media all and (min-width: 1170px) and (orientation: landscape) {
+  .module.parallax-3 .module.content-3 {
+    height: 35vh;
+    margin-top: 5vh;
+    padding: 1em 0;
+  }
 }
