@@ -10,7 +10,7 @@
 
 	h1 {
 		color: $h1-color;
-		font-size: 6.25em;
+		font-size: 5em;
 		font-weight: 700;
 		padding: 4rem 0 1em;
 		text-align: center;
@@ -26,6 +26,7 @@
 		background-color: $backing-color;
 		box-shadow: 0 0 10px $shadow-color;
 		height: auto;
+		margin-top: 5vh;
 		padding: 1em 0;
 
 		.flex-row {
@@ -42,8 +43,8 @@
 		}
 
 		@media all and (min-width: 1170px) and (orientation: landscape) {
-			height: 35vh;
-			margin-top: 5vh;
+			height: auto;
+			margin-top: 22vh;
 			padding: 1em 0;
 		}
 	}

@@ -9,7 +9,7 @@
 
 	h1 {
 		color: $h1-color;
-		font-size: 4em;
+		font-size: 5em;
 		font-weight: 700;
 		padding: 1em 0;
 		text-align: center;
@@ -26,7 +26,7 @@
 		background-color: $backing-color;
 		box-shadow: 0 0 10px $shadow-color;
 		height: 35vh;
-		margin-top: 35vh;
+		margin-top: 38vh;
 		padding: 1em 0;
 
 		h2 {
@@ -47,7 +47,7 @@
 
 		@media all and (min-width: 1170px) and (orientation: landscape) {
 			height: 35vh;
-			margin-top: 5vh;
+			margin-top: 11vh;
 			padding: 1em 0;
 		}
 	}
