@@ -6,6 +6,7 @@ $shadow-color: rgba(0, 0, 0, 0.2);
 $h1-color: rgba(255, 255, 255, 0.8);
 
 body {
+	overflow-x: hidden;
 	padding-top: 50px;
 }
 
@@ -13,7 +14,7 @@ body {
 	padding: 0 0 0 2em;
 }
 
-.container-fluid {
+.container {
 	margin: 0 auto;
 	max-width: 100vw;
 	min-width: 100vw;
